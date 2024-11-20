@@ -1,0 +1,84 @@
+body {
+    background-color: #F5F4F2;
+  }
+  
+  /* Estilos para el contenedor */
+  .container {
+    /* Ancho del contenedor (reducido un poco más) */
+    width: 35%;
+    /* Alto del contenedor (aumentado para que toque los bordes) */
+    height: 95vh;
+    /* Margen superior e inferior eliminados para que toque los bordes */
+    margin: 0;
+    /* Margen izquierdo eliminado para que toque el borde izquierdo */
+    margin-left: 0;
+    /* Padding para que el contenido se vea bien */
+    padding: 20px;
+    /* Fondo del contenedor */
+    background-color: transparent;
+    font-size: 24px;
+    text-align: center;
+    /* Posicionar el contenedor de manera absoluta */
+    position: absolute;
+    /* Posicionar el contenedor en la parte superior de la pantalla */
+    top: 0;
+    /* Posicionar el contenedor en la parte izquierda de la pantalla */
+    left: 0;
+    font-family: 'Questria', sans-serif;
+  }
+  
+  .containerback {
+    width: 35%;
+    height: 95vh;
+    margin:  0;
+    margin-left: 0;
+    padding: 20px;
+    background-color: #6BA3AF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 70%;
+    box-shadow: 0 0 20px #436e77; 
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    font-family: 'Questria', sans-serif;
+    width: 90%;
+    background-color: #436e77;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10; /* Borde suave eliminado */
+    box-shadow: 0 0 10px rgba(16, 57, 95, 0.651);
+  }
+  
+  input[type="submit"] {
+    width: 81%;
+    font-family: 'Questria', sans-serif;
+    height: 40px;
+    background-color: #c04259;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 0; /* Borde suave eliminado */
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #741f2e;
+  }

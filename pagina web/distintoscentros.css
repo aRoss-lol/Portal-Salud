@@ -1,0 +1,60 @@
+main {
+  /* Ancho del contenido (toda la pantalla) */
+  width: 100%;
+  /* Alto del contenido (auto) */
+  height: auto;
+  /* Margen superior para separar de la barra de navegación */
+  margin-top: 50px;
+}
+
+/* ... (resto del código) */
+
+/* Estilos para el body */
+body {
+  /* Eliminar margen por defecto del body */
+  margin: 0;
+  /* Eliminar padding por defecto del body */
+  padding: 0;
+  background-color: #f5f4f2;
+}
+.imagenes {
+  background-color: none !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 20%;
+  margin: 10px;
+}
+.contenedor-principal {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  flex-basis: 25%; /* cada contenedor ocupa el 25% del ancho */
+  margin: 10px; /* espacio entre contenedores */
+  background-color: #a8ced6;
+  padding: 20px; /* espacio interior */
+  border: 1px solid #ddd; /* borde gris */
+  height: 390px;
+    /* Borde suave */
+    border-radius: 10px;
+    /* Sombra para dar profundidad */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Agregar texto de introducción */
+    font-size: 24px;
+    font-weight: bold;
+}
+.icon {
+  font-size: 35px; /* Aumenta el tamaño del ícono */
+  position: relative; /* Permite mover el ícono */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+  top: 10px; /* Mueve el ícono hacia abajo */
+  left: 160px;
+}
+.planeticon {
+  position: relative;
+  top: 10px;
+  left:60px;
+ }

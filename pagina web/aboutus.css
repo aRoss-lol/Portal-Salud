@@ -1,0 +1,62 @@
+main {
+    /* Ancho del contenido (toda la pantalla) */
+    width: 100%;
+    /* Alto del contenido (auto) */
+    height: auto;
+    /* Margen superior para separar de la barra de navegación */
+    margin-top: 50px;
+  }
+  
+  /* ... (resto del código) */
+  
+  /* Estilos para el body */
+  body {
+    /* Eliminar margen por defecto del body */
+    margin: 0;
+    /* Eliminar padding por defecto del body */
+    padding: 0;
+    background-color: #f5f4f2;
+  }
+  
+  .container {
+  /* Ancho del contenedor (gran parte de la pantalla) */
+  width: 47%;
+  /* Alto del contenedor (aumentado) */
+  height: 90vh; /* Cambiado de auto a 80vh */
+  /* Margen superior e inferior para separar del contenido */
+  margin: 50px auto;
+  /* Padding para que el contenido se vea bien */
+  padding: 20px;
+  /* Fondo del contenedor */
+  background-color: #a8ced6;
+  /* Borde suave */
+  border-radius: 10px;
+  /* Sombra para dar profundidad */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* Agregar texto de introducción */
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  top: 0px;
+  right: 239px;
+}
+.miku {
+  position: relative;
+  width: 15px;
+  height: 0px;
+  right: -680px;
+  top: -165px;
+  /* Agrega otros estilos si lo deseas, como tamaño, margen, padding, etc. */
+}
+.icon {
+  font-size: 35px; /* Aumenta el tamaño del ícono */
+  position: relative; /* Permite mover el ícono */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+  top: 10px; /* Mueve el ícono hacia abajo */
+  left: 160px;
+}
+.planeticon {
+  position: relative;
+  top: 10px;
+  left:60px;
+ }

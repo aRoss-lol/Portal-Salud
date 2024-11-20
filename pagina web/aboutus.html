@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--El head contiene varios valores importantes de la pagina, la fuente de letra, Titulo, y
+  la conexion con los 2 css que dan estilo a la pagina y al navbar.-->
+  <link rel="stylesheet" type="text/css" href="aboutus.css">
+  <meta charset="UTF-8"> <!--Esto permite que caracteres como el tilde, la ñ y etc se puedan visualizar-->
+  <link rel="stylesheet" type="text/css" href="navbar.css">
+  <title>Portal Salud</title>
+  <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet'>
+  <!--Se abre style para poner de forma predeterminada al body de la pagina la fuente de letra "Questrial"-->
+  <style>
+    body {
+      font-family: 'Questrial', sans-serif; 
+      font-size: 22px;
+    }
+  </style>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+ <!-- Contiene todo lo necesario para que el navbar se vea y funcione bien, necesario en cada html
+  para que el navbar no se rompa. -->
+ <header>
+    <div class="line"> </div>
+    <div class="nav-bar">
+      <div class="logo">
+        <img src="logo.png" alt="Logo de la página">
+      </div>
+      <div class="miku"><img src="chibi.png"></div> <!--Div para determinar valores del dibujo de la mascota
+      de la pagina en el css-->
+      <div class="nav-buttons"> 
+        <a href="paginaweb.html"><button>Introduccion</button></a>
+        <a href="distintoscentros.html"><button>Centros</button></a>
+        <a href="consejos.html"><button>Consejos</button></a>
+        <a href="aboutus.html"><button>Sobre nosotros</button></a>
+        <!--aca esta todo lo relacionado con el boton de register y translate-->
+        <div class="icon">
+          <a href="register.html"><i class="fas fa-user" style=color:black></i></a>
+        </div>
+        <div class="planeticon">
+          <a href="aboutusEN.html"><img src="planet.png"></a></div>
+      </div>
+  </header>
+  <main> <!--Este div es del contenedor de la pagina donde ira el contenido relacionado.-->
+    <div class="container">
+      <h1>Sobre Portal Salud</h1>
+      <p>
+        En Portal Salud, nuestra misión es proporcionar información básica sobre salud pública de manera accesible, llamativa y artística. Entendemos que el acceso a información clara y confiable es fundamental para empoderar a las personas y contribuir al bienestar de nuestra comunidad.
+      </p>
+      <p>
+        Nos esforzamos por evitar la desinformación, ofreciendo recursos útiles y actualizados que abordan temas de salud relevantes para todos los uruguayos. Creemos que una población informada es una población más saludable.
+      </p>
+      <p>
+        Para cualquier consulta o sugerencia, no dudes en ponerte en contacto con nosotros a través del correo electrónico: <a href="mailto:portalsaluduy@gmail.com">portalsaluduy@gmail.com</a>. Estamos aquí para ayudarte y apoyarte en tu camino hacia una mejor salud.
+      </p>
+    </div>
+  </main>
+</body>

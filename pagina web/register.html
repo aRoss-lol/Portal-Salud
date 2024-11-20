@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Salud</title>
+    <link rel="stylesheet" href="register.css">
+    <style>
+        body {
+          background-image: url('fondoregister.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+          font-family: 'Questrial', sans-serif; /* Agregué sans-serif como fallback */
+          font-size: 22px;
+        }
+        </style>
+</head>
+<body>
+    <form id="registerForm" action="register.php" method="POST">
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Register</button>
+    <!-- Nuevo botón para redirigir a la página de inicio de sesión -->
+    <p>
+        <a href="iniciodesesion.html">¿Ya tienes una cuenta?, haz click aquí</a>
+    </p>
+</form>
+    </form>
+    <script src="formValidation.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>

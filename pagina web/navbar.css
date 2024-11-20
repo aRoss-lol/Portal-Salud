@@ -1,0 +1,87 @@
+/* Estilos para la barra de navegación */
+.nav-bar {
+    /* Fondo de la barra de navegación */
+    background-color: #6BA3AF;
+    /* Ancho de la barra de navegación (toda la pantalla) */
+    width: 100%;
+    /* Alto de la barra de navegación (aumentado) */
+    height: 94px; /* Cambiado de 50px a 80px */
+    /* Display flex para alinear los elementos horizontalmente */
+    display: flex;
+    /* Justificar los elementos alrededor del centro */
+    justify-content: space-between;
+    /* Alinear los elementos verticalmente */
+    align-items: center;
+    /* Eliminar margen por defecto del body */
+    margin: 0;
+    /* Agregar borde a la derecha */
+    border-right: 1px solid #ccc;
+    /* Agregar padding para que no haya partes en blanco */
+    padding: 0;
+    /* Agregar box-sizing para que el padding no afecte el ancho */
+    box-sizing: border-box;
+    position: relative;
+    top: -14px;
+    z-index: 2;
+  }
+
+  .line {
+    background-color: #e64663;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    z-index: 2;
+    top: 89px;
+  }
+  
+  /* Estilos para el logo */
+  .logo {
+    /* Ancho del logo (fijo) */
+    width: 15px;
+    /* Alto del logo (fijo) */
+    height: 80px;
+    /* Margen derecho para separar del contenido */
+    margin-right: 20px;
+    display: flex;
+    position: relative;
+    left: 20px;
+  }
+  .nav-buttons {
+    /* Agregamos flex-grow y justify-content para centrar los botones */
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+  }
+  /* Estilos para los botones */
+  .nav-buttons button {  
+  /* Fondo de los botones */
+  background-color: transparent;
+  /* Color de texto de los botones */
+  color: black;
+  border: none;
+  padding: 4px 40px;
+  font-size: 30px;
+  transition-duration: 1s;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+  font-family: 'Questria', sans-serif;
+  }
+  .nav-buttons button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #e64663;
+    transition: width 0.6s ease-in-out;
+}
+
+.nav-buttons button:hover:after {
+    width: 100%;
+}
